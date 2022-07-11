@@ -17,6 +17,7 @@
     7.1 숨기고 싶은 태그에 hidden이라는 클래스를 적용한다. 예시) <div class="hidden">
     7.2 자바스크립트로는 classList.add와 classList.remove를 통해 hidden class를 제거하거나 추가한다.
 8. HTML 구조에 오류 메세지 기입한다.
+    8.1 오류 메세지는 처음에는 안 보여야 하기 때문에 hidden 클래스를 적용한다
 
 구조
     제목

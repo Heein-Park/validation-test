@@ -2,6 +2,7 @@ const id_space = document.body.querySelector('#ID')
 const pw_space = document.body.querySelector('#PW')
 const pwConf_space = document.body.querySelector('#PW_Con')
 const button_space = document.body.querySelector('#Confirm')
+const forHidden = document.body.querySelector('#Result')
 
 //addEventListner
 //버튼부터
@@ -10,13 +11,12 @@ const button_space = document.body.querySelector('#Confirm')
 function validate()
 {
     if(pw_space.value == pwConf_space.value)
-    {
-        console.log(`ID:${id_space.value} PW:${pw_space.value}`)
-    }
+        forHidden.textContent = "일치합니다."
+
     else
-    {
-        window.alert("비밀번호가 일치하지 않습니다")
-    }
+        forHidden.textContent = "일치하지 않습니다."
+
+    forHidden.classList.remove('hidden')
 }
 
 button_space.addEventListener("click", validate)

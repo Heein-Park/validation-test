@@ -13,6 +13,11 @@
 5. 같은 경우 사용자의 아이디와 비밀번호를 console.log로 출력한다.
 6. 같지 않은 경우 window.alert로 오류를 띄운다.
 
+7. style.css에서 hidden이라는 클래스에 display:none(안 보이게 하는 스타일 값)이 적용되게끔 설정한다.
+    7.1 숨기고 싶은 태그에 hidden이라는 클래스를 적용한다. 예시) <div class="hidden">
+    7.2 자바스크립트로는 classList.add와 classList.remove를 통해 hidden class를 제거하거나 추가한다.
+8. HTML 구조에 오류 메세지 기입한다.
+
 구조
     제목
     아이디 입력란

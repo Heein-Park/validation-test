@@ -1,0 +1,8 @@
+body {
+    background-color: white;
+}
+
+/* 클래스 hidden이 적용된 태그는 다 안 보이게 한다 */
+.hidden {
+    display: none;
+}

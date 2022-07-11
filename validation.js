@@ -17,7 +17,6 @@ function validate()
     {
         window.alert("비밀번호가 일치하지 않습니다")
     }
-    //console.log(id_space.value, pw_space.value, pwConf_space.value)
 }
 
 button_space.addEventListener("click", validate)
